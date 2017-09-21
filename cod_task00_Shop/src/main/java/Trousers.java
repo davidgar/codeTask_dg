@@ -1,4 +1,11 @@
 
+/**
+ * Convenience class to represent trousers
+ * 
+ * @author David
+ *
+ */
+
 public class Trousers implements Product{
 
 	private String brand;

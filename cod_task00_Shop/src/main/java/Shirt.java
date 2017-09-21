@@ -1,4 +1,12 @@
 
+/**
+ * Convenience class to represent a shirt
+ * 
+ * 
+ * @author David
+ *
+ */
+
 public class Shirt implements Product{
 	
 	private String brand;

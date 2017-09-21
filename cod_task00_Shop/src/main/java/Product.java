@@ -1,12 +1,20 @@
 
+/**
+ * This class is used to represent a product
+ * and the operations associated with it (required by every product).
+ * 
+ * @author David
+ *
+ */
+
 public interface Product {
 	
 	
-	public abstract void Refill ();
+	public void Refill ();
 	
-	public abstract void Buy ();
+	public void Buy ();
 	
-	public abstract double getPrize ();
+	public double getPrize ();
 	
 
 }

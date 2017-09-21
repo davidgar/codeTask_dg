@@ -1,3 +1,12 @@
+
+/**
+ * This class contains the main method to test the program.
+ * It also contains the methods required to simulate the operations
+ * available in the store.
+ * 
+ * @author David
+ */
+
 import java.util.*;
 
 
