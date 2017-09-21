@@ -96,6 +96,13 @@ public class Store {
 
 	}
 	
+	/**
+	 * This method prompts the menu to create
+	 * a new shirt in order to be added to the store.
+	 * 
+	 * @return the shirt already created.
+	 */
+	
 	public static Shirt AddShirt_Menu (){
 		Scanner input = new Scanner(System.in);
 		String b = "";
@@ -146,6 +153,13 @@ public class Store {
 	
 	}
 	
+	/**
+	 * This method prompts the menu to create
+	 * trousers in order to be added to the store.
+	 * 
+	 * @return the trousers already created
+	 */
+	
 	public static Trousers AddTrousers_Menu (){
 		Scanner input = new Scanner(System.in);
 		String b = "";
@@ -191,6 +205,14 @@ public class Store {
 
 	
 	}
+	
+	/**
+	 * The method prompts the menu for buying
+	 * products from the store.
+	 * 
+	 * @param products the map with the products available in the store
+	 * ordered by code.
+	 */
 	
 	public static void Buy (Map<Integer, Product> products){
 		
@@ -248,6 +270,13 @@ public class Store {
 				
 		}while(((resp == 'y') || (resp == 'Y') || error) && !empty);	
 	}
+	
+	/**
+	 * This method shows the products available in the store.
+	 * 
+	 * @param products the map with the products available in the store
+	 * ordered by code.
+	 */
 	
 	public static void Show_Stock (Map<Integer, Product> products){
 		for (Map.Entry<Integer, Product> ent : products.entrySet()){
